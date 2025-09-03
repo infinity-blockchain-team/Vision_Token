@@ -156,7 +156,7 @@ contract Vision is Context, IERC20, Ownable {
     uint8 private constant _decimals = 18;
     uint256 private constant _tTotal = 100000000 * 10**_decimals;
     string private constant _name = unicode"Vision";
-    string private constant _symbol = unicode"$VSN";
+    string private constant _symbol = unicode"VSN";
     uint256 public maxTokensPerWallet = 2000000 * 10 ** decimals();
     uint256 public _taxSwapThreshold= 100000 * 10**_decimals;
     
